@@ -6,7 +6,8 @@ I did have to do some work to ensure it runs as a gradlew executable
 because I did have issues where it couldn't find any jars at all.
 
 ## To Compile/Run
-
+NOTE: This code may only work on UNIX based systems since it does rely on
+the existence of the KOTLIN_HOME env variable but I'm not sure
 ### Method 1
 Use IntelliJ to just run the file in which you can set the 
 command line arguments through editing configurations.
